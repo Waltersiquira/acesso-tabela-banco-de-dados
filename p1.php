@@ -6,6 +6,7 @@
     <title>Hash</title>
 </head>
 <body>
+ <table>
     <?php 
     require_once 'includes/funcoes.php';
     $user = $_GET['usuario'] ?? '';
@@ -19,5 +20,6 @@
         echo 'erro de senha ou usuário vazio';
     }
     ?>
+ </table>
 </body>
 </html>
