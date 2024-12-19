@@ -10,7 +10,7 @@
     require_once 'includes/funcoes.php';
     $user = $_GET['usuario'] ?? '';
     $senha = $_GET['senha'] ?? '';
-    if ($user == 'Guilherme' and password_verify($senha, '$2y$10$FKCBxt.ne95pV3dsC16JMe63q.rRptAYjON02NCUsGcHd7Bq2adn2') == true or $user == 'Walter' and password_verify($senha, '$2y$10$FKCBxt.ne95pV3dsC16JMe63q.rRptAYjON02NCUsGcHd7Bq2adn2') == true or $user == 'João da Silva' and password_verify($senha, '$2y$10$/SfVXxJcV1Dgont1HeNCSOTL42blZKbXF9ZLxyVfEFbXWaNcmmsyW') == true){
+    if ($user == 'Guilherme' and password_verify($senha, '$2y$10$givaJFYDHNqz9.M.lFHH4uouC4nC5lzERacynTsWtELI4GBly8l7u') == true or $user == 'Walter' and password_verify($senha, '$2y$10$givaJFYDHNqz9.M.lFHH4uouC4nC5lzERacynTsWtELI4GBly8l7u') == true or $user == 'João da Silva' and password_verify($senha, '$2y$10$njT8oJD8x9g4yXTigCnRX.8C4dBGVDCWrXH2sN4qh4UJgMAAEiI/.') == true){
         gafanhotos();
     }
     elseif (!empty($user) and !empty($senha)){
